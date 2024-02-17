@@ -83,6 +83,24 @@
 
 
 # Practice counting the Grade A how many time occuring
-grade = ["C","D","A","A","B","B","A"]
-print(grade.sort())
-print(grade)
+# grade = ["C","D","A","A","B","B","A"]
+# print(grade.sort())
+# print(grade)
+
+
+
+#split()
+# user = input("Enter A String:")
+# user = user.split()  
+# print(user)
+
+
+
+n = int(input("Enter a number:"))
+arr = list(map(int, input().split()))
+product = 1
+for num in arr:
+    if num % 2 == 0:
+        product *= num
+print(product)
+
