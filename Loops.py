@@ -56,15 +56,47 @@
 # print("Maximum element in the reversed list:", max_value)
 # print(result[1])
 
-a = 0
-b = 10
 
 
-temp = a
-a = b
-b=a
 
-print(a)  # Output will be: 10 0
+#Swapping of two numbers
+# a = 0
+# b = 10
+# temp = a
+# a = b
+# b = a 
+# print(a)  #op 10
+# print(b)  #op 0
+
+# def example(number):
+#     if number % 2 != 0:
+#         print("Odd Number")
+#     else:
+#         print("Even Number")
+# example(6)  
+# example(7)
 
 
+
+# FACTORIAL OF NUMBER
+# user = int(input("Enter The Number To Get The Factorial of:"))
+# def fact(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * fact(n - 1)
+# user  = fact(user)
+# print("Factorial of given Number is :", user)
+
+
+
+# Check palindrome or Not
+
+# def is_palindrome(string):
+#     return string == string[::-1]
+# string =input("Ente the string to check the palindrome ot not:")
+# if is_palindrome(string):
+#     print("Is Palindrome")
+# else:
+#     print("Not A Palindrome")
 
