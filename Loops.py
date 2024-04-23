@@ -100,16 +100,35 @@
 # else:
 #     print("Not A Palindrome")
 
-def DFS(graph, start):
-    visited = set()
-    stack = [start]
-    while stack:
-        vertex = stack.pop()
-        if vertex not in visited:
-            visited.add(vertex)
-            stack.extend(set(graph[vertex]) - visited)
-            return visited
-graph = { 'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': ['F'], 'F': []}
-visited = set()
-print("The Following result of DFS \n")
-print(DFS(graph,'A'))
+# def DFS(graph, start):
+#     visited = set()
+#     stack = [start]
+#     while stack:
+#         vertex = stack.pop()
+#         if vertex not in visited:
+#             visited.add(vertex)
+#             stack.extend(set(graph[vertex]) - visited)
+#             return visited
+# graph = { 'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': ['F'], 'F': []}
+# visited = set()
+# print("The Following result of DFS \n")
+# print(DFS(graph,'A'))
+
+
+
+# Seperating the string
+
+# string = input("Enter The String :")
+# result = ' '.join(string) #Seperating the string # Add the Only 1 space 
+# print(result)
+
+
+#Merging  the string
+# string = input("Enter The String: ")
+# result = string.replace(' ',"")#Add the Only 1 space 
+# print(result)
+
+
+# REVERSE THE STRING
+string = input("Enter the String:")
+print(string[::-1])
