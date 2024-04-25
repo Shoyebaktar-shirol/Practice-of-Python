@@ -95,12 +95,56 @@
 # print(user)
 
 
+#
 
-n = int(input("Enter a number:"))
-arr = list(map(int, input().split()))
-product = 1
-for num in arr:
-    if num % 2 == 0:
-        product *= num
-print(product)
+# a = [1,2,3,4,5,6,7,8, "Shoyebaktar "]
+# print(a)
+# print(len(a))
+# print(type(a))
+# a[0] = "Shoyebaktar Shirol"
+# print(a)
 
+# my_string = "i am shoyebaktar shirol"
+# my_list = my_string.split()
+# print(my_string)
+
+# my_list[0] = "Shoyeb"  # Modify the first element of the list
+# new_string = " ".join(my_list)  # Join the list elements back into a string
+# print(new_string)
+
+# SLICING OF LIST
+# my = [ 1,2,3,4,5,6,7,8,9]
+# my.append("shoyebaktarsirol")
+# print(my)
+
+# my_list = ["i am a persuing Bca from kle Bca "]
+# my_list.append("Gokak")
+# print(my_list)
+
+
+# my = [1,2,3,4,5,6,7,8,9]
+# my.sort(reverse=True) # Decending order
+# print(my)
+
+# my = [1,2,3,4,5,6,7,8,9]
+# my.insert(0,"shoyebaktar")
+# print(my)
+
+
+# my = [1,2,3,4,5,67,8,]
+# my.pop(1) # 2 will be removed 
+# print(my)
+
+
+# my_list = [ 1,2,4]
+# my_list.append(3)
+# print(my_list)
+
+# tup = (1, 2, 3, 4, 5, 6, 7, 8)
+# result= tup.index(8)
+# print(result)
+# print(tup)
+
+
+a = "shoyebaktar shirol from gokak"
+print(a)

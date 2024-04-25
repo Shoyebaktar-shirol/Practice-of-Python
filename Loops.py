@@ -130,5 +130,13 @@
 
 
 # REVERSE THE STRING
-string = input("Enter the String:")
-print(string[::-1])
+# string = input("Enter the String:")
+# print(string[::-1])
+
+
+
+def reverse_list(n):
+    return n[::-1]
+
+number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(reverse_list(number))
