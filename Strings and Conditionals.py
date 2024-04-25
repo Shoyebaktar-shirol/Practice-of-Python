@@ -132,9 +132,100 @@
 
 
 #Check the multiple of 7 number or not 
-a = int(input("Enter  Number  :"))
-if(a%7==0):
-    print("Multiple of 7 Number")
-else:
-    print("Not multiple of 7 Number")
+# a = int(input("Enter  Number  :"))
+# if(a%7==0):
+#     print("Multiple of 7 Number")
+# else:
+#     print("Not multiple of 7 Number")
 
+
+
+
+
+#Practice
+
+# a = "Hello"
+# b = "World"
+# result = a + b
+# print(result)
+
+
+
+# a = " SHOYEBAKTAR SHIROL"
+# result = (len(a))
+# print(result)
+
+
+# str = " SHOYEBAKTAR"
+# print(str[2:4])
+# print(len(str))
+
+
+# str = " SHOYEBAKTAR SHIROL"
+# print(str[-4:-2])  # NEGETIVE INDEXING
+
+
+# str = " I am a coder"
+# print(str.endswith("er")) # returns the T or F Only
+# print(str.replace("coder","Developer"))
+# print(str.find( "am"))   # Returns -1 If Not
+
+
+# str = "Currentlyiammasteringthe Python"
+# print(str.count(" "))# Counts The Spaces Between Words
+
+# a = "I am a coder at the multi national company since i am working on the last five years "
+# print(a.count("e"))  # COUNTS THE NUMBER OF OCCURENCE OF THE STRING
+
+# str = " I am a Bca Student "
+# print(str.split())
+
+# user = input("Enter The String :")
+# print(len(user))
+10
+# user = "$ i am a coder $"
+# print(user.count("$"))
+
+# CONDITIONALS 
+# user = int(input("Enter The Number To Check The Even or Odd :"))
+# if user%2==0:
+#     print("Even Number")
+# else:
+#     print("Odd Number")
+
+
+# num1 = float(input("Enter The Frist Number :"))
+# num2 = float(input("Enter The Second Number :"))
+# num3 = float(input("Enter The Third Number :"))
+
+# result = max(num1, num2, num3)
+# print("Greatest Number is :",result)
+
+
+
+
+
+# FINDING THE GRATEST AMONG THREE NUMBERS
+# num1 = float(input("Enter The Frist Number :"))
+# num2 = float(input("Enter The Second Number :"))
+# num3 = float(input("Enter The Third Number :"))
+
+
+# if(num1 >= num2 and num1 >= num3):
+#     greatest = num1 
+# elif(num2 >= num3 and num2 >= num1):
+#     greatest = num2 
+# else:
+#     greatest = num3 
+# print("The Greatest Number Is : ",greatest)
+
+
+
+
+
+# Check the number is divisible by 7
+user = int(input("Enter The Number :"))
+if(user %7==0):
+    print("Divisible By 7")
+else:
+    print("Not Divisible By 7")
