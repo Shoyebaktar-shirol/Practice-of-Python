@@ -66,13 +66,31 @@ print(x.intersection(y))# Returns common elements from both sets i.e.,{"3","4","
 
 
 
-empty_dict = {}
-x = int(input("Enter Python Marks:"))
-empty_dict.update({"Python":x})
-x = int(input("Enter Java Marks:"))
-empty_dict.update({"Java":x})
-x = int(input("Enter C Programming Marks:"))
-empty_dict.update({"C Programming":x})
-print(empty_dict)
-print("Highest Marks Obtained In :",max(empty_dict))
-print(len(empty_dict))
+# empty_dict = {}
+# x = int(input("Enter Python Marks:"))
+# empty_dict.update({"Python":x})
+# x = int(input("Enter Java Marks:"))
+# empty_dict.update({"Java":x})
+# x = int(input("Enter C Programming Marks:"))
+# empty_dict.update({"C Programming":x})
+# print(empty_dict)
+# print("Highest Marks Obtained In :",max(empty_dict))
+# print(len(empty_dict))
+
+dict_ = {
+    "Name": "Shoyebaktar Shirol",
+    "Age": 22,
+    "College": "KLE SOCIETYS COLLEGE OF BCA GOKAK",
+    "Address": "Gokak",
+    "Degree": "BCA",
+    "CGPA": 8.62,
+    "Email": "shoyebaktarshirol@gmail.com",
+    "Phone": 9380373103
+}
+
+# Accessing keys of the dictionary
+keys = dict_.keys()
+print("Keys:", keys)
+
+# Printing the dictionary
+print(dict_)
