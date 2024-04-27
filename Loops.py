@@ -1,142 +1,80 @@
-# # i = 1
-# # while(i <= 5):
-# #     print("Hello World")
-# #     i += 1
-# # print(i)
+# i = 1 
+# while i <= 100:
+#     print(i)
+#     i+=1
 
 
-# # Practice of loops 
-# # i=0
-# # while(i<=):
-# #     print(i)
-# #     i +=1
-  
+# i = 1
+# while i >=1:
+#     print(i)
+#     i -=1
 
-# # i = 100
-# # while i >= 1:
-# #     print(i)
-# #     i -= 1
-
-# # n = int(input("Enter The Number To Multiply:"))
-# # i = 1
-# # while i <= 10:
-# #     print(n * i)
-# #     i += 1 
-# # print(i)
+# n = int(input("ENter The Number To Multiply :"))
+# i = 1
+# while i<=10:
+#     print(n*i)
+#     i +=1
 
 
-# # n = [1,4,9,16,25,36,49,64,81,100]
-# # idx = 0
-# # while(idx < len(n)):
-# #     print(n[idx])
-# #     idx += 1
 
-
-# #Finding the x element in the tuple
-# nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
-# x = 55
+#Leanear Search
+# numbers = (1,4,9,16,25,36,49,64,81,100)
+# target = 100
 # i = 0
-# while i < len(nums):
-#     if nums[i] == x:
-#         print("Element Found At The Index Of:", i)
+# while i<len(numbers):
+#     if numbers[i] == target:
+#         print("Element Found At Index :",i)
 #         break
-#     i += 1
-# else:
-#     print("The Element You are Searching for the element was Not Found in the Tuple, Please Enter a Valid Number.",x)
+#     i+=1
 
 
 
-
-# def reverse_list(s):
-#     return s[::-1]
-# my_list = [1, 2, 3, 4, 5]
-# result = reverse_list(my_list)
-# print("Reversed list:", result)
-# max_value = max(result)
-# print("Maximum element in the reversed list:", max_value)
-# print(result[1])
+# list = [ 1,2,3,4,5,6,7,8,9]
+# for x in list:
+#     print(x)
 
 
+# str = "abc","Bca","cool","D","E"
+# for char in str:
+#     print(len(char))
+ 
 
 
-#Swapping of two numbers
-# a = 0
-# b = 10
-# temp = a
-# a = b
-# b = a 
-# print(a)  #op 10
-# print(b)  #op 0
+# list = (1,2,34,5,5,6,7,77,8,8,9,)
+# for x in list :
+#     if(x == 2):
+#         print("Found At :",x)
+#         break
+#     print(x)
 
-# def example(number):
-#     if number % 2 != 0:
-#         print("Odd Number")
-#     else:
-#         print("Even Number")
-# example(6)  
-# example(7)
+# seq = range(10)
+# for x in seq:
+#     print(x)
+
+
+# for x in range(2,10,2):
+#         print(x)  # range(start , stop , step)
+        #output is 2,4,6,8
 
 
 
-# FACTORIAL OF NUMBER
-# user = int(input("Enter The Number To Get The Factorial of:"))
-# def fact(n):
-#     if n == 0 or n == 1:
-#         return 1
-#     else:
-#         return n * fact(n - 1)
-# user  = fact(user)
-# print("Factorial of given Number is :", user)
+# for x in range(2,12,2):
+#     print(x)
+# for x in range(1,12,2):
+#     print(x)
 
 
+# for x in range(100,0,-1):
+#     print(x)
 
-# Check palindrome or Not
-
-# def is_palindrome(string):
-#     return string == string[::-1]
-# string =input("Ente the string to check the palindrome ot not:")
-# if is_palindrome(string):
-#     print("Is Palindrome")
-# else:
-#     print("Not A Palindrome")
-
-# def DFS(graph, start):
-#     visited = set()
-#     stack = [start]
-#     while stack:
-#         vertex = stack.pop()
-#         if vertex not in visited:
-#             visited.add(vertex)
-#             stack.extend(set(graph[vertex]) - visited)
-#             return visited
-# graph = { 'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': ['F'], 'F': []}
-# visited = set()
-# print("The Following result of DFS \n")
-# print(DFS(graph,'A'))
+# n = int(input("Enter The Number To Multiply:"))
+# for x in range(1,11):
+#     print(n*x)
 
 
-
-# Seperating the string
-
-# string = input("Enter The String :")
-# result = ' '.join(string) #Seperating the string # Add the Only 1 space 
-# print(result)
-
-
-#Merging  the string
-# string = input("Enter The String: ")
-# result = string.replace(' ',"")#Add the Only 1 space 
-# print(result)
-
-
-# REVERSE THE STRING
-# string = input("Enter the String:")
-# print(string[::-1])
-
-
-
-def reverse_list(n):
-    return n[::-1]
-
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(reverse_list(number))
+n = int(input("Ente The Number To Get The Factorial :"))
+factorial = 1
+for i in range(1,n+1):
+    factorial *=i
+    i+=1
+    print("The Factorial Number Is =",factorial)
