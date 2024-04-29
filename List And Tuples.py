@@ -145,6 +145,3 @@
 # print(result)
 # print(tup)
 
-
-a = "shoyebaktar shirol from gokak"
-print(a)

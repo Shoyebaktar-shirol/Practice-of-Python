@@ -224,8 +224,8 @@
 
 
 # Check the number is divisible by 7
-user = int(input("Enter The Number :"))
-if(user %7==0):
-    print("Divisible By 7")
-else:
-    print("Not Divisible By 7")
+# user = int(input("Enter The Number :"))
+# if(user %7==0):
+#     print("Divisible By 7")
+# else:
+#     print("Not Divisible By 7")

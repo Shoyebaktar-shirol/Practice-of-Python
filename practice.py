@@ -113,6 +113,140 @@
 # print(student)
 
 
-number = input("Enter The Number: ")
-result= number[::-1]
+# number = input("Enter The Number: ")
+# result= number[::-1]
+# print(result)
+
+
+# def practice(num1,num2):
+#     result = num1 * num2
+#     if result <=1000:
+#         return result
+#     else:
+#         return num1+num2
+    
+# print(practice(77,30))
+
+
+# user = input("")
+
+# size = len(user)
+
+# for i in range(0,size-1,2):
+#     print(user[i],end=" ")
+
+
+
+# user = input("")
+# print(user[4:])
+    
+# def frist_last(number_list):
+#     first = number_list[0]
+#     last = number_list[-1]
+#     if number_list[0] == number_list[-1]:
+#         print(True)
+#     else:
+#         print(False)
+
+# result = frist_last([1, 2, 3, 4, 4, 3])
+# print(result)
+
+
+
+
+
+
+# def frist_last(number_list):
+#     first = number_list[0]
+#     last = number_list[-1]
+
+#     return first == last
+
+# result = frist_last([1, 2, 3, 4, 4, 1])
+# print(result)
+
+# i = 0
+# a = [10, 20, 33, 40, 55, 43]
+
+# while i < len(a):
+#     if a[i] % 5 == 0:
+#         print(a[i])
+#     i += 1
+
+
+# a = [10, 20, 33, 40, 55, 43]
+# for num in a:
+#     if num%5==0:
+#         print(num)
+
+
+
+# str_x = "Emma is good developer. Emma is a writer"
+# print(str_x.count("Emma"))
+
+
+
+
+# for num in range(10):
+#     for i in range(num):
+#         print(num,end=" ") #print number
+   
+#     print("\n")
+
+
+
+# def merge_list(list1,list2):
+#         result_list = []
+#         for num in list1:
+#             if num%2!=0:
+#                 result_list.append(num)
+
+
+#         for num in list2:
+#             if num%2==0:
+#                 result_list.append(num)
+
+#         return result_list
+
+# list1= [1,2,3,4,5,6,7,8,9]
+# list2 = [10,20,30,40,50,55,66,77]
+# result = (merge_list(list1,list2))
+# print(result)
+
+
+
+
+# def reverse_int(number):
+#     return number[::-1]
+
+
+
+
+# user = int(input())
+# if reverse_int(user):
+#     print(number)
+# else:
+#     print("Finding")
+
+
+
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(i*j, end=" ")
+#     print("\t")
+
+
+
+
+# a = "shoyebaktar"
+# print("".join(a))
+
+
+b = "S  H  O  Y  E  B  A  K  T  A  R"
+result = b.replace("  "," ")
 print(result)
+
+
+
+
+

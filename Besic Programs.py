@@ -70,17 +70,19 @@
 
 
 # LEAP YEAR OR NOT PROGRAM
-def leapYear(year):   # it contain an additional day, February 29th 
-    if year %4==0 and year%100!=0 or year %4==0: # mendatory both
-        return True
-    else:
-        return False
+# def leapYear(year):   # it contain an additional day, February 29th 
+#     if year %4==0 and year%100!=0 or year %4==0: # mendatory both
+#         return True
+#     else:
+#         return False
 
-year = input("Please Enter The Year :")
-if leapYear(int(year)):
-    print("Leap Year")
-else:
-    print("Not A leap Year")
+# year = input("Please Enter The Year :")
+# if leapYear(int(year)):
+#     print("Leap Year")
+# else:
+#     print("Not A leap Year")
 
 
     # Sum Of The DIGITS
+    # find the second maximum element fromt the list
+    #find the maximum element from the list
