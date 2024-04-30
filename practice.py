@@ -242,11 +242,50 @@
 # print("".join(a))
 
 
-b = "S  H  O  Y  E  B  A  K  T  A  R"
-result = b.replace("  "," ")
-print(result)
+# b = "S  H  O  Y  E  B  A  K  T  A  R"
+# result = b.replace("  "," ")
+# print(result)
 
 
 
 
+# i = 1
+# user = int(input("Enter The Number :"))
+# while i<=10:
+#     print(user*i)
+#     i+=1
 
+# a = 27873.2222
+# print('%.2f' % num)
+
+# a = []
+# for i in range(0,5):
+#     print("Enter The number at the location",i, ":")
+#     result = float(input("Enter The number:"))
+#     a.append(result)
+#     print(a)
+
+# read test.txt
+# with open("a.txt", "r") as fp:
+#     # read all lines from a file
+#     lines = fp.readlines()
+
+
+# with open("b.txt", "w") as fp:
+#     count = 0
+   
+#     for line in lines:
+#         # skip 5th lines
+#         if count == 4:
+#             count += 1
+#             continue
+#         else:
+         
+#             fp.write(line)
+    
+#         count += 1
+
+str1, str2, str3 = input("Enter three string").split()
+print('Name1:', str1)
+print('Name2:', str2)
+print('Name3:', str3)

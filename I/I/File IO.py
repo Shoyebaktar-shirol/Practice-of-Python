@@ -56,8 +56,41 @@
 # f.close()
 
 
+#DELETING THE FILE
+# import os
 
-import os
+
+# os.remove("sample.txt")
 
 
-os.remove("sample.txt")
+# with open("new.txt","w") as f:
+#     f.write("Hii Everyone \n we are learnig \n Python\n from the apna college\n coding for DSA")
+#     f.write("T master The programming  world ")
+
+
+
+# with open("new.txt","r") as f:
+#     data = f.read()
+# new_data =  data.replace("Java","Python")
+# print(new_data)
+
+
+# with open("new.txt","r") as f:
+#     f.write(new_data)
+
+
+
+
+
+
+
+count = 0
+with open("new.txt","r") as f:
+    data = f.read()
+    nums = data.split(",")
+    for val in nums:
+        if(int(val) %2==0):
+            count +=1
+        
+
+print(count)
