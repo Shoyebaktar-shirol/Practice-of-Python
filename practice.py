@@ -289,3 +289,68 @@
 # print('Name1:', str1)
 # print('Name2:', str2)
 # print('Name3:', str3)
+
+
+
+#map()Function in python 
+# def square(x):
+#     return x * x
+
+# number = [1,2,3,4,5,6,7]
+
+# result = list(map(square,number))
+# print(number)
+
+# def Add_two(x):
+#     return x+2
+
+
+# number = [1,2,3,4,5,6]
+
+# result = list(map(Add_two,number))
+# print(result)
+
+
+# def great(name):
+#     return f"hello,{name}"
+
+# name = ["Shoyebaktar Shirol","Muaviya Abbas","Raees","Shanawaz","Akeeb","Aman"]
+
+# result = map(great,name)
+# for i in result:
+#     if "Aman" in i:
+#         print("Aman Is Exists in the list")
+#     else:
+#         print("Aman is not exists")
+#         print(i)
+
+# def num_check(n):
+#     return n
+
+# n = [1,2,3,4,5,66,77,88,87,44,33,2,222]
+
+# result = map(num_check,n)
+# for i in result:
+#     if i == 222:
+#         print("Number exist in the list of N")
+#     else:
+#         print("Number is not exists in the list of N")
+
+#     print(i)
+
+# def cal_square(x):
+#     return x**2
+
+# number = int(input("Enter the number to get the Square :"))
+# result = cal_square(number)
+# print("Squre Of Given Number is:",result)
+ 
+
+#fliter()In python use for filtering the list it accepts 2 args
+def is_even(num):
+    return num%2==0
+
+number = [1,2,3,4,5,6,7,8,88,77,66]
+even_numbers = filter(is_even,number)
+even_number_list = list(even_numbers)
+print(even_number_list)

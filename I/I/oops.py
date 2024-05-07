@@ -109,20 +109,21 @@
 # s1.show()
 
 
-class demo:
+# class demo:
 
 
-    @staticmethod
-    def hello():
-        print("This is a static method inside a class")
-        print("I created indide the class ")
-        print("Ststic method works for class level only")
+#     @staticmethod
+#     def hello():
+#         print("This is a static method inside a class")
+#         print("I created indide the class ")
+#         print("Ststic method works for class level only")
 
-s1 = demo()
+# s1 = demo()
 
-demo.hello()  # Correct way to call the static method
+# demo.hello()  # Correct way to call the static method
 
 
+#
 
 
 
