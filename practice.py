@@ -347,10 +347,30 @@
  
 
 #fliter()In python use for filtering the list it accepts 2 args
-def is_even(num):
-    return num%2==0
+# def is_even(num):
+#     return num%2==0
 
-number = [1,2,3,4,5,6,7,8,88,77,66]
-even_numbers = filter(is_even,number)
-even_number_list = list(even_numbers)
-print(even_number_list)
+# number = [1,2,3,4,5,6,7,8,88,77,66]
+# even_numbers = filter(is_even,number)
+# even_number_list = list(even_numbers)
+# print(even_number_list)
+
+
+#map()
+
+# def double(n):
+#     return n + n
+
+# numbers = [2,3,4,6,7,8]
+# result = map(double,numbers)
+# print(list(result))
+
+
+l = ['Shoyebaktar','akeeb','Raees ','Shanawaz']
+for i in l:
+    if 'o' in i:
+        print("O is Exists in the list")
+    else:
+        pass
+result = list(map(l,))
+print(i)
