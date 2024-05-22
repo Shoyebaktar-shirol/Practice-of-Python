@@ -366,11 +366,95 @@
 # print(list(result))
 
 
-l = ['Shoyebaktar','akeeb','Raees ','Shanawaz']
-for i in l:
-    if 'o' in i:
-        print("O is Exists in the list")
-    else:
-        pass
-result = list(map(l,))
-print(i)
+
+
+
+#
+# l = ['Shoyebaktaro','akeebooo','Raees ','']
+# for i in l:
+#     if 'o' in i:
+#         print("O is Exists in the list")
+#     else:
+#         pass
+
+# print(i)
+
+
+#MAp()
+
+# my_pets = ["Dog","Cat","Parrot","Owl","kingfisher"]
+
+# result = list(map(str.upper,my_pets))
+# print(result)
+
+
+#filter()
+# numbers = [1,2,3,4,5,6,7,88,77,55,44]
+# def even(num):
+#     return num %2==0
+
+# result = list(filter(even,numbers))
+
+# print("Even Numbers are :",result)
+
+
+
+#reduce()
+# from functools import reduce
+
+# numbers = [1,2,3,4,5,6,7,8]
+# def add(x,y):
+#     return x+y
+
+
+# result =(reduce(add,numbers))
+# print("Sum of numbers are :",result)
+
+# class account:
+#     def __init__(self,acc_no,acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+
+
+# acc1 = account("123456","Sho@9900")
+# print(acc1.acc_no)
+# print(acc1.acc_pass)
+
+
+
+
+# Private Concept of oops using __ (double underscore)
+class Bank_account():
+      def __init__(self,acc_num, ifsc_code, branch , acc_password):
+        self.acc_num = acc_num
+        self.ifsc_code = ifsc_code
+        self.branch = branch
+        self.__acc_password = acc_password   # password is engrypted with help of __
+
+acc = Bank_account("1234567800","RBK123","Unknown","****123")
+print(acc.acc_num)
+print(acc.branch)
+print(acc.ifsc_code)
+print(acc.acc_password)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a = "            Shoyebaktar Shirol             "
+result = a.strip()
+print(result)
